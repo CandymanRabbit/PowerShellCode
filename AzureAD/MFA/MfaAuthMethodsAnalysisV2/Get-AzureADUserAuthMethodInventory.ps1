@@ -14,7 +14,7 @@
     Author:           Alex Verboon
     Creation Date:    07.02.2021
 #>
-##Requires -Module @{ ModuleName = 'Microsoft.Graph.Users'; RequiredVersion = '1.3.1'} ,@{ ModuleName = 'Microsoft.Graph.Identity.AuthenticationMethods'; RequiredVersion = '0.9.1'} 
+##Requires -Module @{ ModuleName = 'Microsoft.Graph.Users'; RequiredVersion = '1.3.1'} ,@{ ModuleName = 'Microsoft.Graph.Identity.SignIns'; RequiredVersion = '0.9.1'} 
 
 
 if ($null -eq $(Get-MgContext)) {
